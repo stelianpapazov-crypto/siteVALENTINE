@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FROM STILIAN</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-hearts" aria-hidden="true">
+    <span class="bg-heart">❤</span>
+    <span class="bg-heart">❤</span>
+    <span class="bg-heart">❤</span>
+    <span class="bg-heart">❤</span>
+    <span class="bg-heart">❤</span>
+    <span class="bg-heart">❤</span>
+    <span class="bg-heart">❤</span>
+    <span class="bg-heart">❤</span>
+    <span class="bg-heart">❤</span>
+    <span class="bg-heart">❤</span>
+  </div>
+
+  <main class="container">
+    <h1 class="question">Will you be my valentine?</h1>
+    <div class="card" role="group" aria-label="Valentine box">
+      <p class="note">A little surprise just for you.</p>
+
+      <div class="options" role="radiogroup" aria-label="Choose yes or no">
+        <button class="option yes" aria-pressed="false">Yes</button>
+        <button class="option no" aria-pressed="false">No</button>
+      </div>
+
+      <button class="heart" aria-label="Send heart">💖</button>
+    </div>
+  </main>
+
+  <div class="swing-message" role="status" aria-live="polite" aria-hidden="true" hidden>
+    <div class="swing-card" role="dialog" aria-modal="true">
+      <p class="swing-text">I love you from STELI</p>
+      <div class="swing-actions">
+        <button class="swing-close" aria-label="Close message">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js" defer></script>
+</body>
+</html> 
